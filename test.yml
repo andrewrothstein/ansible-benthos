@@ -1,0 +1,12 @@
+---
+- hosts: all
+  tasks:
+    - name: Testing andrewrothstein.benthos role
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'benthos --version'
+      ansible.builtin.command: benthos --version
+      register: 'benthos_test_output'
+    - name: Output from 'benthos --version'
+      ansible.builtin.debug:
+        msg: '{{ benthos_test_output.stdout }}'
