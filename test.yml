@@ -1,11 +1,13 @@
 ---
-- hosts: all
+- name: Testing andrewrothstein.benthos role
+  hosts: all
   tasks:
-    - name: Testing andrewrothstein.benthos role
+    - name: Installing andrewrothstein.benthos
       ansible.builtin.include_role:
         name: '{{ playbook_dir }}'
     - name: Executing 'benthos --version'
       ansible.builtin.command: benthos --version
+      changed_when: false
       register: 'benthos_test_output'
     - name: Output from 'benthos --version'
       ansible.builtin.debug:
