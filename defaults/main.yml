@@ -1,6 +1,6 @@
 ---
 # defaults file for benthos
-benthos_ver: 4.25.1
+benthos_ver: 4.26.0
 
 benthos_arch_map:
   aarch64: arm64
@@ -80,3 +80,37 @@ benthos_checksums:
     windows_amd64: sha256:3967acb2a22f3086f775dccd4109aeb2aa6367f12ef434c526b2bc82066e0726
     # https://github.com/benthosdev/benthos/releases/download/v4.25.1/benthos_4.25.1_windows_arm64.tar.gz
     windows_arm64: sha256:de6e0ac6bae85f9f503aef0f7a483c284de8570ddb3f148c2a10a000dd3230d8
+  # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_checksums.txt
+  '4.26.0':
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_darwin_amd64.tar.gz
+    darwin_amd64: sha256:2c52310b8e1384f5f86c985fbde6d9b599dc83a9e5b3ea11887710a57cdc3bf8
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_darwin_arm64.tar.gz
+    darwin_arm64: sha256:a354e0172bf2c495cbcf70242d207812ef253eeb7d80c228476e513473c3c704
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_freebsd_amd64.tar.gz
+    freebsd_amd64: sha256:b50e93f7fbf3d2de497cd84327adf07b372f0d47756a2c3c1c0623c6974904ba
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_freebsd_arm64.tar.gz
+    freebsd_arm64: sha256:03ad400b1062e2c0e020766fa4a810443ab79b43146a2996343568335575a0b1
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_freebsd_armv6.tar.gz
+    freebsd_armv6: sha256:bc3fa2d380017ce7042da52d5c96f23ad003ff1e4ab316f7ce2b8f3825967573
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_freebsd_armv7.tar.gz
+    freebsd_armv7: sha256:9d3a7b1df9b295e970695451adf4169cd074b3753ef1b6b81f4fc22cdd50f470
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_linux_amd64.tar.gz
+    linux_amd64: sha256:ec5026c2c7ab7538f87a7ab8919a87f55632e364cfabd12c0ac50b5ea55d295b
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_linux_arm64.tar.gz
+    linux_arm64: sha256:b83b65d1a9b2227c314f85b79afc2483f911b73ccdf1309e37b6576e4630e5df
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_linux_armv6.tar.gz
+    linux_armv6: sha256:02e79867d05b6a6417a7a381975064716d44278ebdcbb31985b6614520bc86e3
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_linux_armv7.tar.gz
+    linux_armv7: sha256:8759e7b94b84b659bd4660e1b3150a66d31574f46360e076c4de8f6d1291839a
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_openbsd_amd64.tar.gz
+    openbsd_amd64: sha256:905e301c23985f87d4448baa789188b349b37fb2ee580d3e19138c1eaf3bd717
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_openbsd_arm64.tar.gz
+    openbsd_arm64: sha256:90042c7757e434811d1018982d3ce1760387221bca02aec14281ff70e029a682
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_openbsd_armv6.tar.gz
+    openbsd_armv6: sha256:687549d8323af9046070f869bcd499a3b71571fd99ee8195c2231333fa9e8f56
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_openbsd_armv7.tar.gz
+    openbsd_armv7: sha256:826247fe1f30819491b7b9db0326a138319edf8790cdeab3a8f69374bbcf37c3
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_windows_amd64.tar.gz
+    windows_amd64: sha256:7a915d0af31adfced7d7c07b4f61228eca6861ffb3532fdfa0749c75ca4c671b
+    # https://github.com/benthosdev/benthos/releases/download/v4.26.0/benthos_4.26.0_windows_arm64.tar.gz
+    windows_arm64: sha256:38fa1e6350af1a87db3eeb86df9c686b16522aa42cba98837be7a1bf16bed422
