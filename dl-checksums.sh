@@ -60,5 +60,5 @@ mirror() {
 
 dl_ver \
     "$(mirror "benthosdev" "benthos")" \
-    "${1:-4.26.0}" \
+    "${1:-4.27.0}" \
     "benthos"
